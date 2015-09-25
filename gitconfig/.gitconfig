@@ -1,0 +1,9 @@
+[user]
+	name = sx
+	email = songxuan319@gmail.com
+[color]
+	ui = auto
+[alias]
+	st = status
+	cmt = commit
+	ck = checkout

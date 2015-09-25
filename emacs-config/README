@@ -1,0 +1,4 @@
+My emacs config files
+
+TO-DO:
+1. When using .emacs config file on  another computer, it might happen that some packages are not installed. How to auto-install dependency??
