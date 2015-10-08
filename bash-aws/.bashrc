@@ -8,7 +8,7 @@ alias mv='mv -i'
 alias et='emacs --daemon'
 alias e='emacsclient -t'
 alias gpglk='gpg --list-key'
-alias ipl='iptables -L'
+alias ipl='iptables -L --line-numbers'
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then
