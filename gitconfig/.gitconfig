@@ -7,3 +7,20 @@
 	st = status
 	cmt = commit
 	ck = checkout
+	lg =  log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	
+[push]
+	default = matching
+
+
+[core]
+	editor = emacs
+[user]
+	name = sx
+	email = songxuan319@gmail.com
+[color]
+	ui = auto
+[alias]
+	st = status
+	cmt = commit
+	ck = checkout
