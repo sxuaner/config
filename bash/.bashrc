@@ -19,9 +19,6 @@ alias nmap='nmap -v'
 alias ipl='iptables -L'
 
 
-
-
-
 function parse_git_branch {
 
         git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ \[\1\]/'
